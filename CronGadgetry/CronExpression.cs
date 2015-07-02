@@ -70,7 +70,7 @@
             return
                 (_years == null || _years.Contains(temp.Year)) &&
                 _months.Contains(temp.Month) &&
-                _days.Contains(temp.Day, temp.Month, temp.Year) &&
+                _days.Contains(temp.Year, temp.Month, temp.Day) &&
                 _hours.Contains(temp.Hour) &&
                 _minutes.Contains(temp.Minute) &&
                 _seconds.Contains(temp.Second) &&
